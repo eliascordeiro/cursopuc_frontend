@@ -1,0 +1,74 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: 'proxima-nova', sans-serif;
+  height: 100%;
+  background: radial-gradient(ellipse at center, #808080 0%, #808080 100%);
+}
+
+a {
+  @apply text-gray-700 no-underline;
+}
+
+h2 {
+  @apply font-bold text-md;
+}
+
+.btn {
+  @apply rounded font-semibold shadow-md py-1 px-3 focus: outline-none focus:border-cyan-500 focus:ring-cyan-500 focus:ring-2 disabled:cursor-not-allowed disabled:opacity-50;
+}
+
+.btn-page {
+  @apply w-24 bg-white border hover: bg-teal-900 hover:text-white;
+}
+
+.btn-load {
+  @apply w-32 bg-white border hover: bg-teal-900 hover:text-white;
+}
+
+.btn-qr {
+  @apply rounded font-semibold shadow-md py-1 px-1 focus: outline-none focus:border-cyan-500 focus:ring-cyan-500 focus:ring-2 disabled:cursor-not-allowed disabled:opacity-50;
+}
+
+.p-1 {
+  padding: 0.25rem;
+}
+
+@media (min-width: 1024px) {
+  .lg\:p-1 {
+    padding: 0.25rem;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1279.9px) {
+  .\@lg\:p-3 {
+    padding: 0.75rem;
+  }
+}
+
+@media (max-width: 1023.9px) {
+  .\<lg\:p-2 {
+    padding: 0.5rem;
+  }
+}
+
+.text-red-400 {
+  --tw-text-opacity: 1;
+  color: rgba(248, 113, 113, var(--tw-text-opacity));
+}
+
+.dark .dark\:text-green-400 {
+  --tw-text-opacity: 1;
+  color: rgba(52, 211, 153, var(--tw-text-opacity));
+}
+
+.w-auto {
+  width: auto;
+}
+
+.App {
+  font-family: sans-serif;
+  background: #ddd;
+}
+

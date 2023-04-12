@@ -1,0 +1,31 @@
+.field {
+  @apply my-2;
+}
+
+label {
+  @apply block text-sm text-cyan-700;
+}
+
+input[type='text'],
+input[type='number'],
+input[type='email'],
+input[type='password'],
+input[type='date'],
+select,
+textarea {
+  @apply w-full px-2 py-1 mt-1 border border-gray-500 rounded-md shadow-md focus: ring-cyan-400 focus:border-cyan-400 focus:outline-none;
+}
+
+input[type='checkbox'] {
+  @apply w-4 h-4 border-gray-300 rounded focus: ring-cyan-500 text-cyan-600;
+}
+
+
+
+input:disabled {
+  @apply bg-gray-200 text-gray-500;
+}
+
+.errors {
+  @apply text-sm text-red-500;
+}
